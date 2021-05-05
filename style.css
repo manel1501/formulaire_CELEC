@@ -7,19 +7,20 @@ html{
     background-image: url('1.png'),url('2.png');
     background-size: 30%,25%;
     background-repeat: no-repeat;
-    background-position: top right,0px 400px;
+    background-position:  900px 90px,0px 400px;
 }
 .nav_bar {
     width: 100%;
     display : flex;
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-between;   
     margin: 0px;
-    margin-left: 0%;
+    margin-left: 60%;
 }
 .nav_bar a {color: black;
     font-size: 20px;
-text-decoration: none;}
+text-decoration: none;
+}
 header {
     justify-content: space-between;
     display: flex;
@@ -39,6 +40,7 @@ li { list-style-type : none;}
 }
 .title{
     margin-left: 525px;
+    margin-bottom: 30px;
     border-bottom:rgb(224, 204, 22) 2px solid ;
     text-align: center;
     font-size: 30px;
